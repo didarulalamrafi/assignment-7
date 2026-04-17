@@ -1,16 +1,34 @@
-# React + Vite
+# 1. Project Name: KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 2. Short Description:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+KeenKeeper helps you track your friendships. You can see all your friends in one place, log how you connected with them (call, text, or video), and view your interaction history on a timeline with analytics.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 3. Technologies Used:
 
-## Expanding the ESLint configuration
+- **React** — Building the user interface
+- **React Router** — Page navigation (Home, Timeline, Stats, Friend Details)
+- **Tailwind CSS** — Styling and layout
+- **DaisyUI** — Ready-made UI components like buttons and dropdowns
+- **Recharts** — Pie chart for friendship analytics
+- **React Toastify** — Toast notifications
+- **Context API** — Sharing data (call, text, video logs) across pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 4. 3 Key Features
+
+### 1. Friend List & Details
+Browse all your friends on the Home page. Click any friend to see their profile — including days since last contact, relationship goal, bio, tags, and contact status.
+
+### 2. Interaction Timeline
+Log your interactions with friends as a **Call**, **Text**, or **Video** directly from their detail page. All logged interactions appear on the Timeline page in one organized list.
+
+### 3. Friendship Analytics
+The Stats page shows a **pie chart** breaking down your interactions by type (Call, Text, Video) — so you can see at a glance how you're staying in touch with your friends.
+
+---

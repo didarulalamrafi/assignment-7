@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+*{
+    font-family: "Geist", sans-serif;
+}
+
+.my-divider::before,
+.my-divider::after {
+  background-color: #0f5e42;
+}
